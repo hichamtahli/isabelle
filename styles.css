@@ -1,0 +1,156 @@
+@font-face {
+	font-family: maPolice;
+	src: url('./fonts/font.ttf');
+}
+
+body{
+    background-image: url('./images/repeat.jpg');
+    background-color: black;
+    color:  #a8a8a8;
+    font-family: Arimo;
+    font-weight: 100;
+}
+
+header{
+    background-image: url('./images/background.jpg');
+    background-color: black;
+    height: 400px;
+    background-position-y: -280px;
+}
+
+nav {
+	width: 100%;
+    float: right;
+    margin-top: 103px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    top: 0;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    color: #b37e49 !important;
+}
+
+h3 {
+    font-style: italic;
+}
+
+#titre1{
+    text-align: right;
+    padding-top: 100px;
+    margin-right: 50px;
+}
+
+#titre2{
+    display: none;
+    text-align: center;
+}
+
+.titre{
+    height: 90px;
+}
+
+.fun{
+    font-size: 20pt;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    color: #a8a8a8;
+    font-style: italic;
+}
+
+.signe{
+    height: 50px;
+}
+
+.prix{
+    text-align: right;
+    color: #b37e49 !important;
+}
+
+.chant{
+    margin-top: -10px;
+    font-family: Arimo;
+    font-size: 16pt;
+    font-weight: lighter;
+    color: #818180;
+}
+
+.great{
+    font-size: 42pt;
+    font-family: 'Great Vibes', cursive;
+    color: #b37e49 !important;
+}
+
+@media screen and (max-width: 1200px) {
+    nav{
+        margin-top: 332px;
+    }
+
+    #titre1{
+        display: none;
+    }
+
+    #titre2{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav{
+        margin-top: 0px;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .titre{
+        height: 55px;
+    }
+}
+
+a{
+    color:#818180 !important;
+}
+
+a:hover{
+    color: #b37e49 !important;
+    text-decoration: none;
+}
+
+a:visited{
+    color:#818180;
+    text-decoration: none;
+}
+
+.background{
+    height:300px;
+    width: 100%;
+    background-color: black;
+}
+
+#imgIsabelle{
+    max-height: 400px;
+}
+
+#drop{
+    margin-top: 200px;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 100px 0 20px 0;
+    padding: 10px;
+    font-size: 10pt;
+}
